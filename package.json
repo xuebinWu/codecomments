@@ -3,12 +3,18 @@
 	"displayName": "codeComments",
 	"description": "",
 	"version": "0.0.1",
+	"publisher": "xuebin",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
+	"icon": "images/comment.png",
 	"categories": [
 		"Other"
 	],
+	"repository": {
+			"type": "git",
+			"url": "https://github.com/xuebinWu/codecomments"
+	},
 	"activationEvents": [
 		"onCommand:codeComments.codeComments"
 	],
