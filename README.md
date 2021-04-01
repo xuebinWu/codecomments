@@ -14,11 +14,11 @@ The comment will be like:
 This extension contributes the following settings:
 
 * `codeComments.Author`: set author
-* `codeComments.tmpl`: comment template
+* `codeComments.tmpl`: set comment template
 
 -----------------------------------------------------------------------------------------------------------
 ## source code
 
-*[GitHub](https://github.com/FlyDreame/vscode-docBlocker)
+*[GitHub](https://github.com/xuebinWu/codecomments.git)
 
 **Enjoy!**
