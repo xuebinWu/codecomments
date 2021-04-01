@@ -6,8 +6,7 @@ Codecomments is a quick code comment extension.
 
 The comment will be like:
 
-![](https://github.com/xuebinWu/codecomments/blob/main/images/example.png)
-\!\[example\]\(images/example.png\)
+![](https://raw.githubusercontent.com/xuebinWu/codecomments/master/images/example.png)
 
 ## Extension Settings
 
