@@ -2,7 +2,7 @@
 	"name": "codecomments",
 	"displayName": "codeComment",
 	"description": "code comment,代码注释,code annotation",
-	"version": "0.0.9",
+	"version": "0.1.0",
 	"publisher": "xuebin",
 	"engines": {
 		"vscode": "^1.50.0"
@@ -44,7 +44,7 @@
 				},
 				"codeComment.tmpl": {
 					"type": "string",
-					"default": "/**\n  *@Author: {{Author}}\n  *@date: {{DateTime}}\n  *@Desc:\n*/",
+					"default": "/**\n  *@Author: {{Author}}\n  *@date: {{DateTime}}\n  *@Desc: $1\n*/",
 					"description": "annotation template"
 				}
 			}

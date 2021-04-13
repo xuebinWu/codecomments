@@ -26,7 +26,9 @@ export function activate(context: vscode.ExtensionContext) {
 		}
     const startLine = editor.selection.active.line;
     const startCharacter = editor.selection.active.character;
-		const commentString = config.tmpl.replace("{{Author}}", config.Author).replace("{{DateTime}}", new Date().toLocaleString());
+		const now = new Date();
+		const dateTime = now.getFullYear() + '/' + (now.getMonth() + 1) + '/' + now.getDate() + ' ' + now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+		const commentString = config.tmpl.replace("{{Author}}", config.Author).replace("{{DateTime}}", dateTime);
 		editor.insertSnippet(new vscode.SnippetString(commentString), new vscode.Position(startLine, startCharacter));
 	});
 
